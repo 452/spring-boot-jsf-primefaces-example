@@ -1,4 +1,4 @@
-package net.hendrikjander;
+package com.github.jsf.primefaces.example;
 
 import org.springframework.stereotype.Component;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringManagedService implements ManagedService {
 
-    public String getMessage() {
-        return "Spring injection";
-    }
+	public String getMessage() {
+		return "Spring injection";
+	}
 }

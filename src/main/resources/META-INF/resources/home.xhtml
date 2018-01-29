@@ -21,5 +21,13 @@
     </p:panel>
 
 
+	<h:form>
+	    <h:panelGrid columns="2" cellpadding="5">
+	        <h:outputText value="Counter: " />
+	        <h:outputText id="output" value="#{counterViewBean.number}" />
+	    </h:panelGrid>
+	 
+	    <p:commandButton value="Count" actionListener="#{counterViewBean.increment}" update="output" />
+	</h:form>
 </h:body>
 </html>

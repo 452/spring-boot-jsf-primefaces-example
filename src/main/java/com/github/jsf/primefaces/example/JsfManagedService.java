@@ -1,5 +1,4 @@
-package net.hendrikjander;
-
+package com.github.jsf.primefaces.example;
 
 import javax.inject.Named;
 
@@ -7,11 +6,10 @@ import javax.inject.Named;
  * Created by jah on 2/3/16.
  */
 
-
 @Named
 public class JsfManagedService implements ManagedService {
 
-    public String getMessage() {
-        return "Jsf injection";
-    }
+	public String getMessage() {
+		return "Jsf injection";
+	}
 }
