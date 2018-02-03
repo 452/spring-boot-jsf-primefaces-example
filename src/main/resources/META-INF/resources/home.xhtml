@@ -9,6 +9,10 @@
 </h:head>
 <h:body>
 
+	Message JSF Bean: <p:outputLabel value="#{exampleJSFBean.message}"/>
+	<br/>
+	Message Rewrite: <p:outputLabel value="#{exampleRewriteJSFBean.message}"/>
+
     <p:panel header="#{springManagedBean.message}">
         <p:outputLabel value="#{springManagedBean.jsfMessage}"/>
         <p:outputLabel value="#{springManagedBean.springMessage}"/>

@@ -1,4 +1,8 @@
-package com.github.jsf.primefaces.example;
+package com.github.jsf.primefaces.example.beans;
+
+import com.github.jsf.primefaces.example.services.JsfManagedService;
+import com.github.jsf.primefaces.example.services.ManagedService;
+import com.github.jsf.primefaces.example.services.SpringManagedService;
 
 /**
  * Created by jah on 2/3/16.

@@ -15,6 +15,10 @@ public class CounterViewBean implements Serializable {
 	public int getNumber() {
 		return number;
 	}
+	
+	public void setNumber(int number) {
+		this.number = number;
+	}
 
 	public void increment() {
 		number++;

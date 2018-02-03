@@ -1,4 +1,4 @@
-package com.github.jsf.primefaces.example;
+package com.github.jsf.primefaces.example.services;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.github.jsf.primefaces.example;
+package com.github.jsf.primefaces.example.services;
 
 /**
  * Created by jah on 2/3/16.

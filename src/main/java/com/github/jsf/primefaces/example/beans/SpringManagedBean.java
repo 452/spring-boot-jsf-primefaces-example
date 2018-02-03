@@ -1,9 +1,12 @@
-package com.github.jsf.primefaces.example;
+package com.github.jsf.primefaces.example.beans;
 
 import javax.faces.bean.RequestScoped;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.github.jsf.primefaces.example.services.JsfManagedService;
+import com.github.jsf.primefaces.example.services.SpringManagedService;
 
 /**
  * Created by jah on 2/3/16.
